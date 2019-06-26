@@ -5,6 +5,6 @@ print(message, '\n')
 imie = "Mateusz"
 nazwisko = "Grunwald"
 
-powitanie = 'Witaj, ' + imie + 'u ' + nazwisko + 'zie!'  # komentarz
+powitanie = 'Witaj, ' + imie + 'u ' + nazwisko + 'zie!'  # zestaw ciągu znaków
 print(powitanie)
-print(f'Witaj, {imie} {nazwisko}!')
+print(f'Witaj, {imie} {nazwisko}!') # alternatywny print
