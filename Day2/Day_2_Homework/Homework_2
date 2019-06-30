@@ -1,4 +1,4 @@
 binvar = "11011010"  # dummy variable to display binary
 print(binvar)
-intvar = int('11011010', base=2)  # convert binary value to int and then display
+intvar = int('11011010', base=2)  # convert binary value to int and then print out result
 print(intvar)
