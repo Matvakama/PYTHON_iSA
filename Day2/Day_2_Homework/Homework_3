@@ -1,0 +1,5 @@
+Sun = 'Sun' # define variables
+Is = 'is'
+Setting = 'setting'
+
+print(Sun+'\n\t'+Is+'\n\t\t'+Setting) # print sentence with new lines and TABs
