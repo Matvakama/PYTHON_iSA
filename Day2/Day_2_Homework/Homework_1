@@ -1,5 +1,5 @@
-float_but_int = 50 / 2
+float_but_int = 50 / 2  # define variable and check type.
 type_of_var = type(float_but_int)
-print(float_but_int)
+print(float_but_int)  # print variables and answer
 print(type)
 print(f'Choć iloraz jest liczbą całkowitą, typ zmiennej nie jest całkowitą.\n')
