@@ -29,5 +29,9 @@ print('\n')
 word_list = text.rsplit()  # łamię ciąg znaków na słowa poprzez łamanie ciągu przy napotkaniu spacji
 for word in word_list:
     print(word)
-
+print('\n')
 # 3 zmien program z punktu drugiego tak, aby uzytkownik sam wpisal jakis tekst, ktory program mu rozbije na liste slow
+zdanie = input("Napisz zdanie... ")
+lista_slow = zdanie.rsplit()
+for word in lista_slow:
+    print(word)
