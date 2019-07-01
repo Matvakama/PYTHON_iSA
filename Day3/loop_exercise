@@ -1,0 +1,33 @@
+repeatHowManyTimes = int(input("Please tell me how many times to repeat..."))
+
+for index in range(repeatHowManyTimes):
+    print("Hello world")
+print(f'\n')
+
+# 0 przypisz do zmiennej o odpowiedniej nazwie nazwy miesiaca (January, February) - mozna uzyc skrotow Jan, Feb itd...
+# wypisz nazwy miesiaca funkcja print()
+# nazwy miesiaca musza byc oddzielone enterem (znak specjalny \n)
+month = (
+    "styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec", "sierpień", "wrzesień", "październik",
+    "listopad", "grudzień"
+)  # krotka miesięcy
+for element in month:  # for loop start
+    print(element)
+print('\n')  # linijka odstępu
+# 1 wypisz co druga literę z napisu - uzyj petli for:
+text = 'Python is a fantastic snake'
+stepval = 3  # co ile liter ma liczyć
+for index in text[::stepval]:
+    print(index)
+print('\n')
+# 1.1 skrot - przeczytaj https://docs.python.org/release/2.3.5/whatsnew/section-slices.html i wypisz co druga litere,
+# tym razem w krotszy sposob 1.2 wypisz teraz co trzecią literę :wink:
+
+# 2 wyszukaj w dokumentacji jak rozbić powyższy tekst na listę słów a nastepnie wydrukuj ta liste (for slowo in lista)
+
+# you need to use method on text to seperate words
+word_list = text.rsplit()  # łamię ciąg znaków na słowa poprzez łamanie ciągu przy napotkaniu spacji
+for word in word_list:
+    print(word)
+
+# 3 zmien program z punktu drugiego tak, aby uzytkownik sam wpisal jakis tekst, ktory program mu rozbije na liste slow

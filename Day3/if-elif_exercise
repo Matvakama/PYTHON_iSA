@@ -1,0 +1,10 @@
+zdanie = input("Napisz zdanie: ")
+firstletter = 'A'
+lastletter = 'Z'
+
+if zdanie[0] == firstletter:
+    print(f'Zdanie zaczyna się na pierwszą literę alfabetu.')
+elif zdanie[0] == lastletter:
+    print(f'Zdanie zaczyna się na ostatnią literę alfabetu.')
+else:
+    print(f'Zdanie zaczyna się na inną literę alfabetu.')
