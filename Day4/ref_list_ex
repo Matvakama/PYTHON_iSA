@@ -1,0 +1,25 @@
+# oldnum = 4
+# newnum = oldnum
+# oldnum = 6
+
+# print(oldnum)
+# print(newnum)
+
+oldlist = [1, 2, 3]
+newlist = oldlist
+# newlist = oldlist.copy()
+# newlist = list(oldlist)
+# newlist = oldlist[:]
+
+oldlist[0] = 4
+
+print(oldlist)
+print(newlist)
+
+rangelist = list(range(10))
+rangelist_sq = rangelist.copy()
+for val in rangelist_sq:
+    rangelist_sq[val] = rangelist[val]**2
+
+print(rangelist)
+print(rangelist_sq)
