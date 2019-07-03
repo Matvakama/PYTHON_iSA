@@ -5,24 +5,31 @@
 # print(oldnum)
 # print(newnum)
 
-oldlist = [1, 2, 3]
-newlist = oldlist
+# oldlist = [1, 2, 3]
+# newlist = oldlist
 # newlist = oldlist.copy()
 # newlist = list(oldlist)
 # newlist = oldlist[:]
 
-oldlist[0] = 4
+# oldlist[0] = 4
 
-print(oldlist)
-print(newlist)
+# print(oldlist)
+# print(newlist)
 
-rangelist = list(range(10))
-rangelist_sq = rangelist.copy()
-for val in rangelist_sq:
-    rangelist_sq[val] = rangelist[val]**2
+# rangelist = list(range(10))
+# rangelist_sq = rangelist.copy()
+# for val in rangelist_sq:
+#     rangelist_sq[val] = rangelist[val]**2
 
-print(rangelist)
-print(rangelist_sq)
+# print(rangelist)
+# print(rangelist_sq)
 
-lastrange = [x**3 for x in rangelist]  # kompaktowa forma
-print(lastrange)
+# lastrange = [x**3 for x in rangelist]  # kompaktowa forma
+# print(lastrange)
+
+list_a = [12, 4, 5, 8, 10, 9, 24, 754, 2, 0]
+list_b = [12, 4, 7, 4, 5, 735, 74, 1, 90, 4]
+list_ab = []
+for el_a, el_b in zip(list_a, list_b):
+    list_ab.append([el_a + el_b])
+print(list_ab)
