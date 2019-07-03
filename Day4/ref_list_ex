@@ -23,3 +23,6 @@ for val in rangelist_sq:
 
 print(rangelist)
 print(rangelist_sq)
+
+lastrange = [x**3 for x in rangelist]  # kompaktowa forma
+print(lastrange)
