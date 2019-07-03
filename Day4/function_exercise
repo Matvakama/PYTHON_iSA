@@ -1,0 +1,11 @@
+def plus(x, y):
+    suma = x + y
+    return suma
+
+print(plus(int(input("Podaj 1-szy składnik... ")), int(input("Podaj 2-gi składnik... "))))
+
+def Rep_N_Times(phrase, repeat_amount):
+    for n in range(repeat_amount):
+        print(phrase)
+
+Rep_N_Times(input("Napisz coś... "), int(input("Ile razy chcesz to powtórzyć? ")))
