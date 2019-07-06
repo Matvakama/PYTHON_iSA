@@ -2,11 +2,23 @@
 
 
 def add(num1, num2):  # dodawanie
+    """
+    Ta funkcja dodaje dwie podane liczby
+    :param num1:
+    :param num2:
+    :return: sum of parameters
+    """
     print(f"{num1} + {num2} = {num1 + num2}")
     return num1 + num2  # zachowuje sumę
 
 
 def multiply(num1, num2):  # mnożenie
+    """
+    Ta funkcja mnoży dwie podane liczby
+    :param num1:
+    :param num2:
+    :return: product of parameters
+    """
     print(f"{num1} * {num2} = {num1 * num2}")
     return num1 * num2  # zachowuje iloczyn
 
