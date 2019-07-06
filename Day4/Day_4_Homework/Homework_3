@@ -1,0 +1,14 @@
+# zagnieżdżone funkcje dodawania i mnożenia
+
+
+def add(num1, num2):  # dodawanie
+    print(f"{num1} + {num2} = {num1 + num2}")
+    return num1 + num2  # zachowuje sumę
+
+
+def multiply(num1, num2):  # mnożenie
+    print(f"{num1} * {num2} = {num1 * num2}")
+    return num1 * num2  # zachowuje iloczyn
+
+
+multiply(add(6, 2), 5)  # funkcje wywołane w zagnieżdżeniu
