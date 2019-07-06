@@ -1,0 +1,5 @@
+# funkcja mająca przyjmować dowolną ilość argumentów, po czym ma je wyświetlić.
+def printf(*args):
+    for arg in args:
+        print(arg)
+printf(67, 2, "string", 'string2', 35.0) # wyświetl wskazane zmienne
