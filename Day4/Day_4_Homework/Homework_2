@@ -1,0 +1,8 @@
+# funkcja mająca przyjmować dowolną ilość argumentów, po czym ma je zsumować.
+def printsum(*args):
+    numlist = list(arg for arg in args)  # no, musiałem tutaj pokombinować trochę zanim znalazłem sposób
+    suma = sum(numlist)
+    print(f"Suma liczb {args} = {suma}")
+
+
+printsum(12, 3, 35, 9, 20, 5)  # wywołanie fukncji
