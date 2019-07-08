@@ -1,0 +1,24 @@
+# funkcja rozbijająca zdania na listę słów zagnieżdżona w funkcji sortującej pod kątem słów
+
+
+def wordsplit(zdanie):
+    """
+    Fukncja rozbija zdanie na listę słów wzorując się na umiejscowieniu spacji w zdaniu.
+    :param zdanie:
+    :return: lista słów zawarta w parametrze zdanie
+    """
+    print(zdanie.rsplit())
+    return zdanie.rsplit()
+
+
+def wordsort(wordlist):
+    """
+    Sortuje podaną listę słów pod kątem wartości pierwszego w kolejności znaku od najmniejszej do największej.
+    :param wordlist:
+    :return: sorted wordlist
+    """
+    print(sorted(wordlist))
+    return sorted(wordlist)
+
+
+wordsort(wordsplit(input("Napisz zdanie: ")))
