@@ -23,7 +23,7 @@ class Bike(object):
     def bell(self):
         """Ring the bell."""
         return "RRRRRIIIIINNNG!!"
-class ElectricBike(Bike)
+
 
 class Wheel(object):
     """ Define bike wheel """
@@ -37,4 +37,6 @@ class Wheel(object):
         self.diameter = diameter
         self.width = width
 
+class ElectricBike(Bike):
+    """Define electric bike"""
 
