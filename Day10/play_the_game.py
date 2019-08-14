@@ -7,7 +7,7 @@ d6 = Dice(sides=6)
 # d12 = Dice(sides=12)
 # d20 = Dice(sides=20)
 
-player = Character(HP = 20, DEF = 8, DMG = 1)
+player = Character(HP = 20, DEF = 7, DMG = 1)
 enemy = Character()
 
 for number in range(40):
